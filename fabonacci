@@ -1,0 +1,9 @@
+num=int(input('enter no of digits to display in fabonacci series:'))
+first=0
+second=1
+while num>0 :
+    next=first+second
+    first=second
+    second=next
+    print(next)
+    num=num-1
