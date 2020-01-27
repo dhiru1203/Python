@@ -1,0 +1,12 @@
+num=int(input('enter no:'))
+num1=num
+cub=0
+while num>0:
+    digit=num%10
+    cub=cub+(digit*digit*digit)
+    num=num//10
+print(cub)
+if cub==num1:
+    print('this is armstrong no. ')
+else:
+    print('this is not armstrong no. ')
